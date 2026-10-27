@@ -15,7 +15,6 @@ class EdgeInsetsPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
 
-          // EdgeInsets.all
           Center(
             child: Container(
               margin: const EdgeInsets.only(top: 10),
@@ -33,7 +32,6 @@ class EdgeInsetsPage extends StatelessWidget {
 
           const SizedBox(height: 15),
 
-          // EdgeInsets.symmetric
           Container(
             width: double.infinity,
             color: Colors.yellow,
@@ -52,7 +50,6 @@ class EdgeInsetsPage extends StatelessWidget {
 
           const SizedBox(height: 15),
 
-          // EdgeInsets.only
           Center(
             child: Container(
               color: Colors.blue,
@@ -74,7 +71,6 @@ class EdgeInsetsPage extends StatelessWidget {
 
           const SizedBox(height: 15),
 
-          // EdgeInsets.fromLTRB
           Center(
             child: Container(
               color: Colors.green,
